@@ -1,15 +1,5 @@
 # Cognitive Contract Intelligence & Risk Advisory System
 
-**A Final-Year B.Tech Project in Computer Science & Artificial Intelligence**
-
-[![Python Version](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.111.0-009688.svg)](https://fastapi.tiangolo.com/)
-[![React](https://img.shields.io/badge/React-18.3.1-61dafb.svg)](https://react.dev/)
-[![Database](https://img.shields.io/badge/Database-Oracle%20SQL%20%7C%20python--oracledb-f80000.svg)](https://www.oracle.com/database/)
-[![Test Suite](https://img.shields.io/badge/Tests-16%20Passed%20(100%25)-brightgreen.svg)]()
-
----
-
 ## 1. Project Overview & Objective
 
 The **Cognitive Contract Intelligence & Risk Advisory System** is an enterprise-grade legal-tech web application that automates the ingestion, structural analysis, policy compliance verification, risk explanation, and semantic interrogation of commercial contracts.
