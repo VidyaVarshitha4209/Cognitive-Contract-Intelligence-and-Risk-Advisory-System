@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+# Secrets
+.env
+backend/.env
+# Node
+node_modules/
+dist/
+# Storage (keep folders, ignore contents)
+storage/uploads/*
+storage/extracted_text/*
+storage/vector_store/*
+storage/reports/*
+storage/*.db
+!storage/**/.gitkeep

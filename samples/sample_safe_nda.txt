@@ -1,0 +1,35 @@
+MUTUAL NON-DISCLOSURE AND CONFIDENTIALITY AGREEMENT
+
+This Mutual Non-Disclosure Agreement ("Agreement") is executed and effective as of February 1, 2026 ("Effective Date"), by and between Apex Global Solutions Inc. ("Disclosing Party") and Horizon Dynamics Corp. ("Receiving Party").
+
+1. Definition of Confidential Information
+"Confidential Information" refers to any proprietary, technical, financial, or operational data disclosed by either party, whether orally or in written form, marked as confidential or that reasonably ought to be understood as confidential.
+
+2. Obligations of Non-Disclosure
+The Receiving Party agrees to protect the Confidential Information using the same standard of care used to protect its own sensitive information, but no less than reasonable care. Information shall be used strictly for evaluating the business partnership.
+
+3. Payment Terms and Consideration
+The parties acknowledge mutual disclosure of business opportunities constitutes sufficient and valuable consideration. No licensing fees or payments are required under this Agreement.
+
+4. Term and Survival
+This Agreement shall govern disclosures made within a period of one (1) year. The confidentiality obligations herein shall survive for a period of five (5) years following the termination or expiration of this Agreement.
+
+5. Termination and Notice Period
+Either party may terminate discussions and this Agreement at any time by giving forty-five (45) days prior written notice to the other party.
+
+6. Limitation of Liability
+Each party's total aggregate liability arising out of this Agreement shall be capped and strictly limited to $100,000 USD. Neither party shall be liable for indirect, punitive, or consequential damages.
+
+7. Return of Materials
+Upon written request or termination, the Receiving Party shall return or certify destruction of all copies of Confidential Information within thirty (30) days.
+
+8. Governing Law
+This Agreement shall be governed by the laws of the State of Delaware, without giving effect to conflict of laws rules.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written above.
+
+APEX GLOBAL SOLUTIONS INC.
+By: Robert Vance, VP Legal Affairs
+
+HORIZON DYNAMICS CORP.
+By: Elena Rostova, Managing Director

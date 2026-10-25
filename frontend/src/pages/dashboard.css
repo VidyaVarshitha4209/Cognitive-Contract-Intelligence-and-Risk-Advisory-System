@@ -1,0 +1,51 @@
+/* Dark dashboard. Self-contained: does not depend on Tailwind or your theme. */
+.dk { --panel:#ffffff; --line:#e5e9f2; --ink:#0f172a; --mute:#64748b; --accent:#f97316; --track:#e8edf5; --hover:#f6f8fc; --row:#eef1f7;
+  --hi:#ef4444; --me:#eab308; --lo:#22c55e;
+  color:var(--ink); min-height:100%; padding:0;
+  font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif; }
+.dk * { box-sizing:border-box; }
+.dk a { color:inherit; text-decoration:none; }
+.dk-top { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; align-items:center; margin-bottom:26px; }
+.dk-search { flex:1; min-width:220px; max-width:520px; display:flex; align-items:center; gap:8px; background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:9px 12px; color:var(--mute); }
+.dk-search input { flex:1; background:transparent; border:none; outline:none; color:var(--ink); font-size:13px; }
+.dk-btn { display:inline-flex; align-items:center; gap:8px; padding:9px 14px; border-radius:10px; font-weight:600; font-size:12.5px; border:1px solid var(--accent); background:transparent; color:var(--ink); cursor:pointer; }
+.dk-btn.solid { background:var(--accent); color:#111; }
+.dk h1 { font-family:Georgia,"Times New Roman",serif; font-size:30px; margin:0 0 4px; font-weight:700; }
+.dk-sub { color:var(--mute); font-size:13px; margin-bottom:22px; }
+.dk-sub b { color:var(--hi); font-weight:600; }
+.dk-stats { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-bottom:18px; }
+.dk-card { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:20px; min-width:0; }
+.dk-stat .v { font-family:Georgia,serif; font-size:34px; font-weight:700; line-height:1.1; }
+.dk-stat .l { color:var(--mute); font-size:12.5px; margin-top:4px; }
+.dk-grid { display:grid; grid-template-columns:1.6fr 1fr 1fr; gap:14px; margin-bottom:18px; }
+.dk-card h2 { font-family:Georgia,serif; font-size:17px; margin:0; }
+.dk-card .hint { color:var(--mute); font-size:12px; margin:3px 0 14px; }
+.dk-chart { height:260px; position:relative; }
+.dk-donut { height:210px; position:relative; }
+.dk-donut .mid { position:absolute; inset:0; display:grid; place-content:center; text-align:center; pointer-events:none; }
+.dk-donut .mid b { font-family:Georgia,serif; font-size:30px; line-height:1; }
+.dk-donut .mid span { font-size:11px; color:var(--mute); }
+.dk-legend { border-top:1px solid var(--line); margin-top:12px; padding-top:10px; display:grid; gap:6px; font-size:12.5px; }
+.dk-legend div { display:flex; justify-content:space-between; align-items:center; }
+.dk-legend i { display:inline-block; width:9px; height:9px; border-radius:2px; margin-right:8px; }
+.dk-bars { display:grid; gap:16px; margin-top:6px; }
+.dk-bar .row { display:flex; justify-content:space-between; font-size:12.5px; margin-bottom:5px; }
+.dk-bar .track { height:6px; background:var(--track); border-radius:999px; overflow:hidden; }
+.dk-bar .fill { height:100%; border-radius:999px; background:var(--me); }
+.dk-table { width:100%; border-collapse:collapse; font-size:13px; }
+.dk-table th { text-align:left; color:var(--mute); font-weight:600; font-size:12px; padding:8px 10px; border-bottom:1px solid var(--line); }
+.dk-table td { padding:11px 10px; border-bottom:1px solid var(--row); }
+.dk-table tr:hover td { background:var(--hover); }
+.dk-pill { padding:2px 10px; border-radius:6px; font-size:11.5px; font-weight:600; }
+.dk-pill.High { background:rgba(239,68,68,.14); color:#b91c1c; } .dk-pill.Medium { background:rgba(234,179,8,.18); color:#a16207; } .dk-pill.Low { background:rgba(34,197,94,.16); color:#15803d; }
+.dk-pill.n { background:var(--track); color:var(--mute); }
+.dk-empty { color:var(--mute); text-align:center; padding:28px 10px; font-size:13px; }
+.dk-scroll { overflow-x:auto; }
+@media (max-width:1100px) { .dk-stats { grid-template-columns:1fr 1fr; } .dk-grid { grid-template-columns:1fr; } }
+@media (max-width:560px) {  .dk-stats { grid-template-columns:1fr; } }
+
+/* dark theme (screen only) */
+@media screen {
+  html.dark .dk { --panel:#151b25; --line:#2a3342; --ink:#f1f5f9; --mute:#94a3b8; --track:#1f2733; --hover:#1a212c; --row:#1f2733; }
+  html.dark .dk-pill.High { color:#f87171; } html.dark .dk-pill.Medium { color:#facc15; } html.dark .dk-pill.Low { color:#4ade80; }
+}

@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: contract_intel_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_TYPE=oracle
+      - ORACLE_USER=c##contract_user
+      - ORACLE_PASSWORD=oracle_password
+      - ORACLE_HOST=oracle_db
+      - ORACLE_PORT=1521
+      - ORACLE_SERVICE_NAME=FREEPDB1
+      - AI_PROVIDER=mock
+      - GEMINI_API_KEY=
+      - GEMINI_MODEL=gemini-1.5-flash
+    volumes:
+      - ./storage:/app/storage
+    depends_on:
+      - oracle_db
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: contract_intel_frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+
+  oracle_db:
+    image: container-registry.oracle.com/database/free:latest
+    container_name: contract_oracle_db
+    ports:
+      - "1521:1521"
+    environment:
+      - ORACLE_PWD=oracle_password
+    volumes:
+      - oracle_data:/opt/oracle/oradata
+
+volumes:
+  oracle_data:

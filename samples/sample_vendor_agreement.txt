@@ -1,0 +1,44 @@
+MASTER SERVICES AND VENDOR AGREEMENT
+
+This Master Services Agreement ("Agreement") is made and entered into as of January 15, 2026 ("Effective Date"), by and between Apex Global Solutions Inc., a Delaware corporation ("Client"), and CloudMatrix Technologies LLC, a California limited liability company ("Vendor").
+
+RECITALS
+WHEREAS, Client desires to retain Vendor to perform enterprise cloud integration and data engineering services; and
+WHEREAS, Vendor possesses the necessary technical proficiency and agrees to perform such services under the terms set forth herein.
+
+NOW, THEREFORE, the parties agree as follows:
+
+1. Scope of Services
+Vendor shall provide the integration services, software deliverables, and technical documentation specified in individual Statements of Work ("SOW") executed hereunder.
+
+2. Payment Terms and Invoicing
+Vendor shall invoice Client on a monthly milestone basis. Client shall pay all undisputed invoice amounts within Net 60 days from the invoice receipt date. In the event of late payment, Client agrees to pay a late payment fee and penalty of 2% per month or the highest statutory rate applicable.
+
+3. Term and Termination
+This Agreement shall commence on the Effective Date and remain in effect for an initial term of two (2) years. Either party may terminate this Agreement without cause upon providing seven (7) business days prior written notice to the other party. Upon termination, Vendor shall deliver all completed deliverables.
+
+4. Automatic Renewal
+Upon the expiration of the initial term, this Agreement shall automatically renew for successive one-year terms unless either party provides written notice of non-renewal at least ten (10) days prior to the expiration of the current term.
+
+5. Limitation of Liability and Indemnification
+Neither party's total aggregate liability arising out of or related to this Agreement shall be capped. The parties agree to unlimited liability for all direct, indirect, and consequential damages arising from any breach. Furthermore, Client agrees to defend, indemnify, and hold harmless Vendor against all third-party claims, losses, and damages without limitation.
+
+6. Confidentiality
+Each party agrees to safeguard the Proprietary and Confidential Information of the other party. The confidentiality obligations under this Agreement shall survive for a period of one (1) year following the date of termination or expiration of this Agreement.
+
+7. Intellectual Property Rights
+All pre-existing intellectual property shall remain the sole property of the originating party. All newly developed custom deliverables and software code shall be deemed "work made for hire" and shall be owned exclusively by Client upon full payment.
+
+8. Data Protection and Security
+Vendor agrees to handle all Client data with commercially reasonable safeguards. In the event of an unauthorized security breach or incident, Vendor shall notify Client within fourteen (14) business days.
+
+9. Governing Law and Dispute Resolution
+This Agreement shall be governed by and construed in accordance with the laws of the State of New York, without regard to conflict of laws principles. Any disputes shall be submitted to confidential commercial arbitration in New York City.
+
+IN WITNESS WHEREOF, the parties hereto have caused this Master Services Agreement to be executed by their duly authorized representatives.
+
+APEX GLOBAL SOLUTIONS INC.
+By: Johnathan Miller, Chief Information Officer
+
+CLOUDMATRIX TECHNOLOGIES LLC
+By: Sarah Jenkins, Chief Executive Officer
